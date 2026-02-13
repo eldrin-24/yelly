@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg">
+    <link rel="stylesheet" href="%BASE_URL%style.css">
 </head>
 <body>
     <!-- Full-screen background scene -->
     <div class="scene-container">
         <!-- Animated sunset sky -->
-        <div class="sky-background" style="background-image: url('public/sunset-bg.jpg');">
+        <div class="sky-background" style="background-image: url('%BASE_URL%sunset-bg.jpg');">
             <div class="sky-overlay"></div>
             
             <!-- Floating clouds -->
@@ -28,7 +29,7 @@
         <!-- Cat character (bottom-left) -->
         <div class="cat-character">
             <div class="cat-container">
-                <img src="public/mochi-cat.png" alt="Mochi Cat" class="cat-image" id="catImage">
+                <img src="%BASE_URL%mochi-cat.png" alt="Mochi Cat" class="cat-image" id="catImage">
             </div>
             <span class="cat-name">Solemn</span>
         </div>
@@ -65,7 +66,7 @@
 
     <div id="root"></div>
 
-    <script src="script.js"></script>
+    <script src="%BASE_URL%script.js"></script>
     <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
