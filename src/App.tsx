@@ -115,10 +115,10 @@ export default function Page() {
                     <div className="letter-content">
                       <p className="letter-date">Feb 14, 2026</p>
                       <p className="letter-body">
-                        Happy valentine's day my baby!! i made this little website just for u and i really hope you like it.
-                        i'm not the best at stuff like this but I wanted to do something special that shows how much you mean to me.
-                        just know that i love you so much, and every single day i find more reasons to love you even more.
-                        you make me so happy and i'm so grateful for you, always and forever
+                        Happy valentine's day my baby!! i made this little website just for u and i really hope u like it.
+                        i'm not the best at stuff like this but I wanted to do something special that shows how much u mean to me.
+                        just know that i love you so much, and every single day i find more reasons to love u even more.
+                        u make me so happy and i'm so grateful for u, always and forever
                       </p>
                       <p className="letter-sign">yours truly,</p>
                       <p className="letter-name">eldrin</p>
