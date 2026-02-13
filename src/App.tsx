@@ -151,7 +151,7 @@ export default function Page() {
             <img
               className="hero-gif"
               src={`${baseUrl}el7.gif`}
-              alt="Solemn"
+              alt="Eldrin"
             />
             <h1 className="title">Be My Valentine?</h1>
             <p className="subtitle">The sunset awaits your answer...</p>
